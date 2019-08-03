@@ -2,7 +2,7 @@ package com.zyj.springboot.dto;
 
 public class GithubUser {
     private String name;
-    private long d;
+    private long id;
     private String bio;
 
     public String getName() {
@@ -13,12 +13,12 @@ public class GithubUser {
         this.name = name;
     }
 
-    public long getD() {
-        return d;
+    public long getId() {
+        return id;
     }
 
-    public void setD(long d) {
-        this.d = d;
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getBio() {
